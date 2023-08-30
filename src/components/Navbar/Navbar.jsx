@@ -46,13 +46,13 @@ export default function Navbar() {
 
 			<div className='mr-16 text-xl flex items-center gap-x-5'>
 				<motion.li className='list-none' variants={childVariant}>
-					<Link>Home</Link>
+					<Link to='/'>Home</Link>
 				</motion.li>
 				<motion.li className='list-none' variants={childVariant}>
-					<Link>Gallery</Link>
+					<Link to='/gallery'>Gallery</Link>
 				</motion.li>
 				<motion.li className='list-none' variants={childVariant}>
-					<Link>My Gallery</Link>
+					<Link to='/my-gallery'>My Gallery</Link>
 				</motion.li>
 			</div>
 		</motion.div>
